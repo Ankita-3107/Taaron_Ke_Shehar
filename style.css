@@ -1,0 +1,26 @@
+h1{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Handwriting', Times, serif;
+    font-size: 70px;
+}
+
+body {
+    background-color: #ffffff;
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+    @keyframes colorchange{
+        0%{background-color: red;}
+        10%{background-color: white;}
+        20%{background-color: pink;}
+        30%{background-color:orange;}
+        40%{background-color:black;}
+        50%{background-color: green;}
+        60%{background-color:yellow;}
+        70%{background-color: purple;}
+        80%{background-color: violet;}
+        90%{background-color:navy;}
+        100%{background-color:rosybrown;}
+}
